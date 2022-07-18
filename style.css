@@ -104,3 +104,16 @@ button {
     gap: 40px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 330px 50px 330px;
+    
+}
+
+#author {
+    font-weight: bold;
+    float: right;
+}
