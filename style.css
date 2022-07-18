@@ -32,7 +32,8 @@ ul {
 
 .headerText p,
 li,
-.text p
+.text p,
+.footer
  {
     font-size: 18px;
     color: #E5E7EB;
@@ -70,7 +71,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     
 }
 
@@ -128,8 +129,15 @@ button {
     align-items:  center;
     padding: 30px 100px;
     justify-content: space-between;
+    border-radius: 12px;
 }
 
 .button button {
     border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 15px 0px
 }
