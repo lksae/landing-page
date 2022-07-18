@@ -27,7 +27,7 @@ ul {
 .headerText h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: bold ;
 }
 
 .headerText p,
@@ -80,3 +80,27 @@ button {
 .headerText {
     align-self: flex-start;
 }
+
+#informationHeader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+   
+}
+
+.information {
+    text-align: center;
+    padding: 10px 300px 100px  300px ;
+}
+
+.picture img {
+    max-width: 150px;
+    max-height: auto;
+    border-radius: 12px;
+}
+
+.pictures {
+    display: flex;
+    gap: 40px;
+}
+
